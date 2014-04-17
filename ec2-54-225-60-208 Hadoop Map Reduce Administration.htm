@@ -1,0 +1,98 @@
+
+<!-- saved from url=(0069)http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/jobtracker.jsp -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ec2-54-225-60-208 Hadoop Map/Reduce Administration</title>
+<link rel="stylesheet" type="text/css" href="./ec2-54-225-60-208 Hadoop Map Reduce Administration_files/hadoop.css">
+<link rel="icon" type="image/vnd.microsoft.icon" href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/static/images/favicon.ico">
+<script type="text/javascript" src="./ec2-54-225-60-208 Hadoop Map Reduce Administration_files/jobtracker.js"></script>
+</head>
+<body>
+
+
+
+<h1>ec2-54-225-60-208 Hadoop Map/Reduce Administration</h1>
+
+<div id="quicklinks">
+  <a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/jobtracker.jsp#quicklinks" onclick="toggle(&#39;quicklinks-list&#39;); return false;">Quick Links</a>
+  <ul id="quicklinks-list">
+    <li><a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/jobtracker.jsp#scheduling_info">Scheduling Info</a></li>
+    <li><a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/jobtracker.jsp#running_jobs">Running Jobs</a></li>
+    <li><a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/jobtracker.jsp#retired_jobs">Retired Jobs</a></li>
+    <li><a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/jobtracker.jsp#local_logs">Local Logs</a></li>
+  </ul>
+</div>
+
+<b>State:</b> RUNNING<br>
+<b>Started:</b> Fri Sep 27 11:47:32 UTC 2013<br>
+<b>Version:</b> 0.20.2+737,
+                r98c55c28258aa6f42250569bd7fa431ac657bdbd<br>
+<b>Compiled:</b> Mon Oct 11 17:21:30 UTC 2010 by 
+                 root<br>
+<b>Identifier:</b> 201309271147<br>                 
+                   
+<hr>
+<h2>Cluster Summary (Heap Size is 95.38 MB/888.94 MB)</h2>
+<table border="1" cellpadding="5" cellspacing="0">
+<tbody><tr><th>Running Map Tasks</th><th>Running Reduce Tasks</th><th>Total Submissions</th><th>Nodes</th><th>Occupied Map Slots</th><th>Occupied Reduce Slots</th><th>Reserved Map Slots</th><th>Reserved Reduce Slots</th><th>Map Task Capacity</th><th>Reduce Task Capacity</th><th>Avg. Tasks/Node</th><th>Blacklisted Nodes</th><th>Excluded Nodes</th></tr>
+<tr><td>0</td><td>0</td><td>6</td><td><a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/machines.jsp?type=active">9</a></td><td>0</td><td>0</td><td>0</td><td>0</td><td>72</td><td>36</td><td>12.00</td><td><a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/machines.jsp?type=blacklisted">0</a></td><td><a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/machines.jsp?type=excluded">0</a></td></tr></tbody></table>
+<br>
+<hr>
+<h2 id="scheduling_info">Scheduling Information</h2>
+<table border="2" cellpadding="5" cellspacing="2">
+<thead style="font-weight: bold">
+<tr>
+<td> Queue Name </td>
+<td> Scheduling Information</td>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td><a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/jobqueue_details.jsp?queueName=default">default</a></td>
+<td>N/A
+</td>
+</tr>
+
+</tbody>
+</table>
+<hr>
+<b>Filter (Jobid, Priority, User, Name)</b> <input type="text" id="filter" onkeyup="applyfilter()"> <br>
+<span class="small">Example: 'user:smith 3200' will filter by 'smith' only in the user field and '3200' in all fields</span>
+<hr>
+
+<h2 id="running_jobs">Running Jobs</h2>
+<table class="datatable">
+<tbody><tr><td align="center" colspan="8"><i>none</i></td></tr>
+</tbody></table>
+
+<hr>
+
+<h2 id="completed_jobs">Completed Jobs</h2><table class="datatable">
+<thead><tr><th><b>Jobid</b></th><th><b>Priority</b></th><th><b>User</b></th><th><b>Name</b></th><th><b>Map % Complete</b></th><th><b>Map Total</b></th><th><b>Maps Completed</b></th><th><b>Reduce % Complete</b></th><th><b>Reduce Total</b></th><th><b>Reduces Completed</b></th><th><b>Job Scheduling Information</b></th></tr>
+</thead><tbody><tr><td id="job_0"><a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/jobdetails.jsp?jobid=job_201309271147_0001&refresh=0">job_201309271147_0001</a></td><td id="priority_0">NORMAL</td><td id="user_0">root</td><td id="name_0">job1</td><td>100.00%<table border="1px" width="80px"><tbody><tr><td cellspacing="0" class="perc_filled" width="100%"></td></tr></tbody></table></td><td>316</td><td>316</td><td>100.00%<table border="1px" width="80px"><tbody><tr><td cellspacing="0" class="perc_filled" width="100%"></td></tr></tbody></table></td><td>32</td><td> 32</td><td>NA</td></tr>
+<tr><td id="job_1"><a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/jobdetails.jsp?jobid=job_201309271147_0002&refresh=0">job_201309271147_0002</a></td><td id="priority_1">NORMAL</td><td id="user_1">root</td><td id="name_1">job2</td><td>100.00%<table border="1px" width="80px"><tbody><tr><td cellspacing="0" class="perc_filled" width="100%"></td></tr></tbody></table></td><td>32</td><td>32</td><td>100.00%<table border="1px" width="80px"><tbody><tr><td cellspacing="0" class="perc_filled" width="100%"></td></tr></tbody></table></td><td>1</td><td> 1</td><td>NA</td></tr>
+<tr><td id="job_2"><a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/jobdetails.jsp?jobid=job_201309271147_0003&refresh=0">job_201309271147_0003</a></td><td id="priority_2">NORMAL</td><td id="user_2">root</td><td id="name_2">job1</td><td>100.00%<table border="1px" width="80px"><tbody><tr><td cellspacing="0" class="perc_filled" width="100%"></td></tr></tbody></table></td><td>316</td><td>316</td><td>100.00%<table border="1px" width="80px"><tbody><tr><td cellspacing="0" class="perc_filled" width="100%"></td></tr></tbody></table></td><td>32</td><td> 32</td><td>NA</td></tr>
+<tr><td id="job_3"><a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/jobdetails.jsp?jobid=job_201309271147_0004&refresh=0">job_201309271147_0004</a></td><td id="priority_3">NORMAL</td><td id="user_3">root</td><td id="name_3">job2</td><td>100.00%<table border="1px" width="80px"><tbody><tr><td cellspacing="0" class="perc_filled" width="100%"></td></tr></tbody></table></td><td>32</td><td>32</td><td>100.00%<table border="1px" width="80px"><tbody><tr><td cellspacing="0" class="perc_filled" width="100%"></td></tr></tbody></table></td><td>1</td><td> 1</td><td>NA</td></tr>
+<tr><td id="job_4"><a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/jobdetails.jsp?jobid=job_201309271147_0005&refresh=0">job_201309271147_0005</a></td><td id="priority_4">NORMAL</td><td id="user_4">root</td><td id="name_4">job1</td><td>100.00%<table border="1px" width="80px"><tbody><tr><td cellspacing="0" class="perc_filled" width="100%"></td></tr></tbody></table></td><td>316</td><td>316</td><td>100.00%<table border="1px" width="80px"><tbody><tr><td cellspacing="0" class="perc_filled" width="100%"></td></tr></tbody></table></td><td>32</td><td> 32</td><td>NA</td></tr>
+<tr><td id="job_5"><a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/jobdetails.jsp?jobid=job_201309271147_0006&refresh=0">job_201309271147_0006</a></td><td id="priority_5">NORMAL</td><td id="user_5">root</td><td id="name_5">job2</td><td>100.00%<table border="1px" width="80px"><tbody><tr><td cellspacing="0" class="perc_filled" width="100%"></td></tr></tbody></table></td><td>32</td><td>32</td><td>100.00%<table border="1px" width="80px"><tbody><tr><td cellspacing="0" class="perc_filled" width="100%"></td></tr></tbody></table></td><td>1</td><td> 1</td><td>NA</td></tr>
+</tbody></table>
+<hr>
+
+
+
+<h2 id="retired_jobs">Retired Jobs</h2>
+<table border="1" cellpadding="5" cellspacing="0">
+<tbody><tr><td align="center" colspan="8"><i>none</i></td></tr>
+</tbody></table>
+
+<hr>
+
+<h2 id="local_logs">Local Logs</h2>
+<a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/logs/">Log</a> directory, <a href="http://ec2-54-225-60-208.compute-1.amazonaws.com:50030/jobhistory.jsp">
+Job Tracker History</a>
+
+<hr>
+<a href="http://www.cloudera.com/hadoop/">Cloudera's Distribution for Hadoop</a>, 2013.
+
+
+</body></html>
